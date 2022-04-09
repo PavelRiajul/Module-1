@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+width: 100%;
+height: 100vh;
+background-color: beige;
+}
+.card{
+width: 50%;
+height: 100%;
+background-color: aqua;
+float: left;
+}
+.card1{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    float: right;
+    clip-path: polygon(42% 0, 100% 0, 100% 74%, 53% 100%);
+    background-image: url(./images/training2-training-pic4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: pavel;
+    animation-duration: 3s;
+
+    
+    
+
+}
+@keyframes pavel{
+    0% {
+        transform: translatex(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
